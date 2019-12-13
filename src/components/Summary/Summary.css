@@ -1,0 +1,41 @@
+/*--- GENERAL DATA ---*/
+.general-data {
+	height: 100%;
+	position: relative;
+	width: 100vw;;
+}
+.bg-parallax-general-data {
+	background-attachment: fixed;
+	background-image: url(./images/conferences-general-data.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: brightness(.4);
+	height: inherit;
+	position: absolute;
+	width: 100%;
+}
+.general-data .section-padding {
+	height: inherit;
+	position: relative;
+}
+.general-data .section-padding .container {
+	height: 100%;
+}
+.general-data-content {
+	align-items: center;
+	flex-direction: column;
+	height: inherit;
+	justify-content: center;
+	text-align: center;
+}
+.general-data-content span {
+	color: var(--colorBase);
+	font-size: 4rem;
+	font-weight: bold;
+}
+.general-data-content p {
+	color: white;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}

@@ -1,0 +1,13 @@
+.copyright {
+	background-color: #2e2e2e;
+}
+.copyright .copyright-content {
+	align-items: center;
+	color: white;
+	justify-content: center;
+	text-align: center;
+}
+.copyright .copyright-content p {
+	margin-bottom: 0;
+	padding: 2vh 0;
+}

@@ -1,0 +1,54 @@
+/*--- TESTIMONIALS ---*/
+.testimonials {
+	background-color: var(--fondoGrisClaro);
+}
+.testimonials-content {
+	align-items: center;
+	flex-direction: column;
+}
+.testimonials-content > * {
+	width: 100%;
+}
+.testimonials-content h2 {
+	margin-bottom: 2vh;
+	text-align: center;
+	text-transform: uppercase;
+}
+.testimonial-box {
+	border: 1px solid #cdcdcd;
+	margin-bottom: 5vh;
+	padding: 2vh;
+}
+.testimonials-content .testimonial-box:last-child {
+	margin-bottom: 0;
+}
+.testimonial-text {
+	align-items: center;
+	flex-direction: column;
+}
+.testimonial-text {
+	width: 100%;
+}
+.testimonial-text i {
+	color: var(--colorBase);
+}
+.testimonial-person-data {
+	align-items: center;
+	justify-content: space-around;
+}
+.testimonial-person-photo {
+	width: 22%;
+}
+.testimonial-person-photo img {
+	height: auto;
+	width: 100%;
+}
+.testimonial-person-name {
+	width: 70%;
+}
+.testimonial-person-name {
+	flex-direction: column;
+}
+.testimonial-person-name h3 {
+	color: var(--colorBase);
+}

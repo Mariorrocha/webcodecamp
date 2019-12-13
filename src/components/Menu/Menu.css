@@ -1,0 +1,59 @@
+/*--- NAVBAR ---*/
+.navbar {
+	background-color: var(--fondoGris);
+	padding: 2vh 0;
+	position: sticky;
+	top: 0;
+	z-index: 99999;
+}
+.content-navbar {
+	align-items: center;
+	flex-wrap: wrap;
+}
+.logo {
+	border-left: 5px solid var(--colorBase);
+	color: white;
+	font-size: 1.125rem;
+	font-weight: bold;
+	padding-left: 3vw;
+	text-transform: uppercase;
+	width: 80%;
+}
+.hamburguer-btn {
+	align-items: flex-end;
+	flex-direction: column;
+	width: 20%;
+}
+.hamburguer-btn span {
+	background-color: white;
+    height: 5px;
+    margin-bottom: 5px;
+    width: 60%;
+}
+.hamburguer-btn span:last-child {
+	margin-bottom: 0;
+}
+.main-nav {
+	flex-direction: column;
+	padding-top: 3vh;
+	text-align: center;
+	width: 100%;
+}
+.main-nav a {
+	color: white;
+	display: block;
+	padding: 0.3125em;
+	margin: 1vh 0;
+	transition: .2s all ease;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	background-color: var(--colorBase);
+}
+.main-nav a:last-child {
+	border: 2px solid var(--colorBase);
+}
+.main-nav a:last-child:hover {
+	background-color: transparent;
+}

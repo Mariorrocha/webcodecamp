@@ -1,0 +1,39 @@
+ [
+     {
+         "id":"mario",
+        "nombre":"Mario",
+        "description":"Mario description",
+        "skills":[
+            "JS",
+            "React",
+            "Node"
+        ],
+        "nextTalk": "Apollo React"
+
+    },
+    {   
+        "id":"adrian",
+        "nombre":"Adrian",
+        "description":"Adrian description",
+        "skills":[
+            "JS",
+            "React",
+            "Node"
+        ],
+        "nextTalk": "Testing Javascript"
+
+    },
+
+    {
+        "id":"lupita",
+        "nombre":"Lupita",
+        "description":"Lupita description",
+        "skills":[
+            "JS",
+            "React",
+            "Node"
+        ],
+        "nextTalk": "React Router"
+
+    }
+]

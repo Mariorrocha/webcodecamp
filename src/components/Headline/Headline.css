@@ -1,0 +1,14 @@
+/*--- EVENT PRESENTATION ---*/
+#event-presentation {
+	background-color: var(--fondoGrisClaro);
+}
+.event-presentation-content {
+	flex-direction: column;
+	text-align: center;
+}
+.event-presentation-content h2 {
+	margin-bottom: 2vh;
+}
+.event-presentation-content p {
+	margin-bottom: 0;
+}

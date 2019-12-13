@@ -1,0 +1,61 @@
+/*--- CONFERENCISTS ---*/
+#conferencists {
+	background-color: var(--fondoGrisClaro);
+}
+.conferencists-content {
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.conferencists-content h2 {
+	margin-bottom: 2vh;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+.conferencist {
+	height: 250px;
+	position: relative;
+	width: 100%;
+	margin-bottom: 5vh;
+}
+.conferencists-content .conferencist:last-child {
+	margin-bottom: 0;
+}
+.conferencist-image-wrapper {
+	height: inherit;
+	position: absolute;
+	width: 100%;
+}
+.conferencist-image-wrapper img {
+	height: inherit;
+	object-fit: cover;
+	width: 100%;
+}
+.conferencist-data-wrapper {
+	align-items: center;
+	background-color: rgba(0,0,0,.4);
+	bottom: 0;
+	color: white;
+	height: 50px;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+}
+.conferencist-data-wrapper .conferencist-name {
+	padding: 0 3vw;
+	width: 60%;
+}
+.conferencist-data-wrapper .conferencist-profile {
+	flex-grow: 1;
+	padding-right: 3vw;
+	text-align: right;
+}
+.conferencist-data-wrapper .conferencist-profile .btn-view-profile {
+	background-color: var(--colorBase);
+	border-radius: 5px;
+    color: white;
+    font-size: 11px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}

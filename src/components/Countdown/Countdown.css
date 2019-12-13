@@ -1,0 +1,48 @@
+/*--- COUNTER ---*/
+.counter {
+	height: 100%;
+	width: 100%;
+}
+.counter .container {
+	height: 100%;
+	width: 100%;
+}
+.counter-content-wrapper {
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	width: 100%;
+}
+.counter-content-wrapper > * {
+	width: 100%;
+}
+.counter-content-wrapper h2 {
+	margin-bottom: 2vh;
+	text-align: center;
+	text-transform: uppercase;
+}
+.counter-content {
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+.counter-content > * {
+	width: 100%;
+}
+.counter-content .counter-content-box {
+	margin-bottom: 5vh;
+}
+.counter-content .counter-content-box:last-child {
+	margin-bottom: 0;
+}
+.counter-content span {
+	color: var(--colorBase);
+	font-size: 60px;
+	font-weight: bold;
+}
+.counter-content p {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 0;
+}

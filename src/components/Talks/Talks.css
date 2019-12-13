@@ -1,0 +1,148 @@
+/*--- FEATURED CONFERENCES ---*/
+.featured-conferences {
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+	width: 100vw;
+}
+.bg-video-featured-conferences {
+	background-color: red;
+	position: absolute;
+	height: inherit;
+	width: 100vw;
+}
+.bg-video-featured-conferences video {
+	height: 100%;
+}
+.featured-conferences .section-padding {
+	height: 100%;
+	position: relative;
+}
+.featured-conferences .section-padding .container {
+	height: inherit;
+}
+.featured-conferences-content {
+	align-items: center;
+	background-color: rgba(255,255,255,.8);
+	flex-direction: column;
+	height: 100%;
+	padding: 1.5vh;
+}
+.featured-conferences-content h2 {
+	margin-bottom: 2vh;
+	text-align: center;
+	text-transform: capitalize;
+}
+.featured-conferences-nav {
+	align-items: center;
+	border-bottom: 2px solid var(--colorBase);
+	flex-direction: column;
+	padding-bottom: 1vh;
+	width: 100%;
+}
+.featured-conferences-nav a {
+	color: black;
+	margin-bottom: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.featured-conferences-nav a:last-child {
+	margin-bottom: 0;
+}
+.featured-conferences-nav i {
+	color: var(--colorBase);
+}
+.conferences-program {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	padding-top: 1vh;
+	position: relative;
+	width: 100%;
+}
+#conference1 {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+#conference1 > * {
+	width: 100%;
+}
+.conferences-program .list {
+	list-style: none;
+	text-align: center;
+}
+.conferences-program .list li {
+	font-size: 1.125rem;
+	margin: 1vh 0;
+}
+.conferences-program .list li h3 {
+	font-size: 1rem;
+	text-transform: capitalize;
+}
+.conferences-program .list li i {
+	color: var(--colorBase);
+}
+.conferences-program hr {
+	background-color: black;
+	height: 1px;
+}
+.information-button-wrapper {
+	justify-content: center;
+}
+.more-information-button {
+	border: 2px solid;
+	color: var(--colorBase);
+	font-size: 0.75rem;
+	margin-top: 1.5vh;
+	padding: 1em 2em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#conference2 {
+	align-items: center;
+	display: none;/*Cuando e active el menú cambiar por flex*/
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+#conference2 > * {
+	width: 100%;
+}
+#conference3 {
+	align-items: center;
+	display: none; /*Cuando e active el menú cambiar por flex*/
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+#conference3 > * {
+	width: 100%;
+}
+
+.talk{
+
+    align-items: center;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+
+}
+
+.talk.active{
+    display: flex;
+}
+
